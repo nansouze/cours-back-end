@@ -88,4 +88,16 @@ Cours Back-End pour les débutants
 
 ## NPM
 
-`npm i`
+A la racine du projet, on peut éxécuter:
+
+### `npm i`
+
+Pour installer les dépendances.
+
+### `npm run dev`
+
+Pour lancer nodemon.
+
+### `npm run buildTailwind`
+
+Pour faire un build avec Tailwind CSS.
