@@ -1,0 +1,13 @@
+import express from "express";
+
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  res.render("pages/home", {
+    title: "Explorer les dernières discussions 📣",
+    userName: "Nansouze",
+    isLoggedIn: true
+  });
+});
+
+export default router;
