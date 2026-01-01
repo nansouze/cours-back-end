@@ -6,7 +6,11 @@ const PORT = 3000;
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("pages/home");
+  res.render("pages/home", {
+    title: "Explorer les dernières discussions 📣",
+    userName: "Nansouze",
+    isLoggedIn: true
+  });
 });
 
 app.listen(PORT, () => {
